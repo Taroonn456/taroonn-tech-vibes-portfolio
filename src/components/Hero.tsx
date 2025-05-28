@@ -10,6 +10,16 @@ const Hero = () => {
     }
   };
 
+  const downloadResume = () => {
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // This will point to the resume file in the public folder
+    link.download = 'Taroonn_Koyilada_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-20">
       <div className="max-w-4xl mx-auto text-center">
@@ -38,6 +48,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
+              onClick={downloadResume}
               className="border-2 border-gray-300 hover:border-blue-600 px-8 py-3 rounded-full transition-all duration-300"
             >
               <Download className="w-4 h-4 mr-2" />

@@ -4,6 +4,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
+  const downloadResume = () => {
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // This will point to the resume file in the public folder
+    link.download = 'Taroonn_Koyilada_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
@@ -101,6 +111,7 @@ const Contact = () => {
                       Interested in my work? Download my resume to learn more about my experience and projects.
                     </p>
                     <Button 
+                      onClick={downloadResume}
                       className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                       size="lg"
                     >
