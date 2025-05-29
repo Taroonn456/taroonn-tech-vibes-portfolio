@@ -4,40 +4,128 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Skills = () => {
   const programmingLanguages = [
-    { name: "Python", level: 90 },
-    { name: "Java", level: 85 },
-    { name: "JavaScript", level: 88 },
-    { name: "C", level: 80 },
-    { name: "HTML", level: 95 },
-    { name: "CSS", level: 90 }
+    { 
+      name: "Python", 
+      level: 90,
+      logo: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Java", 
+      level: 85,
+      logo: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "JavaScript", 
+      level: 88,
+      logo: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "C", 
+      level: 80,
+      logo: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "HTML", 
+      level: 95,
+      logo: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "CSS", 
+      level: 90,
+      logo: "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=40&h=40&fit=crop&crop=center"
+    }
   ];
 
   const technologies = [
-    { name: "React", level: 85 },
-    { name: "Node.js", level: 80 },
-    { name: "Express.js", level: 82 },
-    { name: "Angular", level: 75 },
-    { name: "Vue.js", level: 70 },
-    { name: "Bootstrap", level: 85 },
-    { name: "MySQL", level: 75 },
-    { name: "Firebase", level: 80 },
-    { name: "MongoDB", level: 75 }
+    { 
+      name: "React", 
+      level: 85,
+      logo: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Node.js", 
+      level: 80,
+      logo: "https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Express.js", 
+      level: 82,
+      logo: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Angular", 
+      level: 75,
+      logo: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Vue.js", 
+      level: 70,
+      logo: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Bootstrap", 
+      level: 85,
+      logo: "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "MySQL", 
+      level: 75,
+      logo: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Firebase", 
+      level: 80,
+      logo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "MongoDB", 
+      level: 75,
+      logo: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=40&h=40&fit=crop&crop=center"
+    }
   ];
 
   const aiTools = [
-    { name: "PyTorch", level: 80 },
-    { name: "TensorFlow", level: 78 },
-    { name: "Machine Learning", level: 85 },
-    { name: "Deep Learning", level: 75 }
+    { 
+      name: "PyTorch", 
+      level: 80,
+      logo: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "TensorFlow", 
+      level: 78,
+      logo: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Machine Learning", 
+      level: 85,
+      logo: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Deep Learning", 
+      level: 75,
+      logo: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=40&h=40&fit=crop&crop=center"
+    }
   ];
 
   const tools = [
-    { name: "GitHub", level: 90 },
-    { name: "Figma", level: 85 },
-    { name: "Canva", level: 88 }
+    { 
+      name: "GitHub", 
+      level: 90,
+      logo: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Figma", 
+      level: 85,
+      logo: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=40&h=40&fit=crop&crop=center"
+    },
+    { 
+      name: "Canva", 
+      level: 88,
+      logo: "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=40&h=40&fit=crop&crop=center"
+    }
   ];
 
-  const SkillCard = ({ title, skills, icon }: { title: string, skills: Array<{name: string, level: number}>, icon: React.ReactNode }) => (
+  const SkillCard = ({ title, skills, icon }: { title: string, skills: Array<{name: string, level: number, logo: string}>, icon: React.ReactNode }) => (
     <Card className="bg-white shadow-lg border-0 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:rotate-1 hover:scale-105 perspective-1000 group">
       <CardHeader className="text-center pb-4">
         <div className="flex justify-center mb-4 transform group-hover:scale-110 group-hover:rotate-y-12 transition-all duration-500">
@@ -51,8 +139,15 @@ const Skills = () => {
         <div className="space-y-4">
           {skills.map((skill, index) => (
             <div key={index} className="space-y-2 transform hover:translate-x-2 transition-transform duration-300">
-              <div className="flex justify-between">
-                <span className="text-sm font-medium text-gray-700">{skill.name}</span>
+              <div className="flex justify-between items-center">
+                <div className="flex items-center space-x-3">
+                  <img 
+                    src={skill.logo} 
+                    alt={`${skill.name} logo`}
+                    className="w-6 h-6 rounded object-cover"
+                  />
+                  <span className="text-sm font-medium text-gray-700">{skill.name}</span>
+                </div>
                 <span className="text-sm text-gray-500">{skill.level}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
@@ -79,6 +174,16 @@ const Skills = () => {
           <p className="text-lg text-gray-600 mt-6 max-w-2xl mx-auto">
             A comprehensive overview of my technical expertise and proficiency levels
           </p>
+        </div>
+
+        {/* IEEE Membership Badge */}
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center bg-white border-2 border-blue-600 rounded-full px-6 py-3 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center mr-3 font-bold text-sm">
+              IEEE
+            </div>
+            <span className="text-gray-800 font-semibold">Member - IEEE Computer Society</span>
+          </div>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
