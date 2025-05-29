@@ -93,16 +93,6 @@ const Skills = () => {
       name: "TensorFlow", 
       level: 78,
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
-    },
-    { 
-      name: "Machine Learning", 
-      level: 85,
-      logo: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=40&h=40&fit=crop&crop=center"
-    },
-    { 
-      name: "Deep Learning", 
-      level: 75,
-      logo: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=40&h=40&fit=crop&crop=center"
     }
   ];
 
