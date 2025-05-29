@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Navigation from "@/components/Navigation";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <Experience />
       <Projects />
       <Contact />
+      <Chatbot />
     </div>
   );
 };

@@ -1,4 +1,3 @@
-
 import { Code, Database, Wrench, Brain } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -7,32 +6,32 @@ const Skills = () => {
     { 
       name: "Python", 
       level: 90,
-      logo: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     },
     { 
       name: "Java", 
       level: 85,
-      logo: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
     },
     { 
       name: "JavaScript", 
       level: 88,
-      logo: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     },
     { 
       name: "C", 
       level: 80,
-      logo: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
     },
     { 
       name: "HTML", 
       level: 95,
-      logo: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
     },
     { 
       name: "CSS", 
       level: 90,
-      logo: "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
     }
   ];
 
@@ -40,47 +39,47 @@ const Skills = () => {
     { 
       name: "React", 
       level: 85,
-      logo: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     { 
       name: "Node.js", 
       level: 80,
-      logo: "https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     },
     { 
       name: "Express.js", 
       level: 82,
-      logo: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
     },
     { 
       name: "Angular", 
       level: 75,
-      logo: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
     },
     { 
       name: "Vue.js", 
       level: 70,
-      logo: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
     },
     { 
       name: "Bootstrap", 
       level: 85,
-      logo: "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
     },
     { 
       name: "MySQL", 
       level: 75,
-      logo: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
     },
     { 
       name: "Firebase", 
       level: 80,
-      logo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
     },
     { 
       name: "MongoDB", 
       level: 75,
-      logo: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
     }
   ];
 
@@ -88,12 +87,12 @@ const Skills = () => {
     { 
       name: "PyTorch", 
       level: 80,
-      logo: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
     },
     { 
       name: "TensorFlow", 
       level: 78,
-      logo: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
     },
     { 
       name: "Machine Learning", 
@@ -111,17 +110,17 @@ const Skills = () => {
     { 
       name: "GitHub", 
       level: 90,
-      logo: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
     },
     { 
       name: "Figma", 
       level: 85,
-      logo: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     },
     { 
       name: "Canva", 
       level: 88,
-      logo: "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=40&h=40&fit=crop&crop=center"
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
     }
   ];
 
